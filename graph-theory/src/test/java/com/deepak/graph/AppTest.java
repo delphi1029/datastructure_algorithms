@@ -1,4 +1,4 @@
-package com.deepak.algo.graph_theory;
+package com.deepak.graph;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

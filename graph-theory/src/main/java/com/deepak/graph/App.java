@@ -1,4 +1,4 @@
-package com.deepak.algo.graph_theory;
+package com.deepak.graph;
 
 /**
  * Hello world!
