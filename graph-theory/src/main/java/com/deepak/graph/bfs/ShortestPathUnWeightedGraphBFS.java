@@ -77,5 +77,9 @@ public class ShortestPathUnWeightedGraphBFS {
 			System.out.println(i+" - "+distance[i]);
 		}
 	}
+	
+	public void traceShortesPath(int startId, int endId) {
+		
+	}
 
 }
