@@ -2,6 +2,7 @@ package com.deepak.graph.dfs;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class DFS {
 
@@ -38,7 +39,8 @@ public class DFS {
 	public void dfs() {
 		for(int i=0; i<visited.length; i++) {
 			if(visited[i] == false) {
-				dfsRec(i);
+				//dfsRec(i);
+				dfsIter(i);
 			}
 		}
 	}
@@ -51,6 +53,23 @@ public class DFS {
 		for(Integer node: graph.get(vertex)) {
 			if(visited[node] == false) {
 				dfsRec(node);
+			}
+		}
+	}
+	
+	public void dfsIter(int vertex) {
+		Stack<Integer> stack = new Stack<>();
+		stack.push(vertex);
+		visited[vertex] = true;
+		
+		while(!stack.isEmpty()) {
+			Integer ver = stack.pop();
+			System.out.print(ver+" ");
+			for(Integer in : graph.get(ver)) {
+				if(visited[in] == false) {
+					visited[in] = true;
+					stack.push(in);
+				}
 			}
 		}
 	}
