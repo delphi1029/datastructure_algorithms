@@ -1,4 +1,4 @@
-package com.deepak.graph;
+package com.deepak.graph.bfs;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
