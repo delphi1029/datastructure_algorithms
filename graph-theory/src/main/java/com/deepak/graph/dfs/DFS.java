@@ -19,7 +19,7 @@ public class DFS {
 	public void createGraph() {
 		
 		graph = new ArrayList<>();
-		visited = new boolean[5];
+		visited = new boolean[7];
 		
 		for(int i=0; i<=visited.length; i++) {
 			graph.add(new ArrayList<Integer>());
@@ -31,6 +31,7 @@ public class DFS {
 		addEdge(1, 4);
 		addEdge(2, 3);
 		addEdge(3, 4);
+		addEdge(5,6);
 		
 	}
 	
