@@ -1,4 +1,4 @@
-# datastructure_algorithms
+# Algorithms
  ## Graph Theory - 
  
  #### Applications of BFS - 
