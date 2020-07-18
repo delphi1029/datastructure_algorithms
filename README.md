@@ -23,4 +23,4 @@
 
 #### Shortest Path (Unweighted Graph) - BFS
 
-We can use simple BFS to fing shorted distance in un-weighted and undirected graph. The time complexity of the solution is #####O(V + E) and spance complexity is O(V).
+We can use simple BFS to fing shorted distance in un-weighted and undirected graph. The time complexity of the solution is O(V + E) and space complexity is O(V).
