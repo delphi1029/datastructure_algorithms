@@ -54,7 +54,7 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
 **Not every graph can have a topological ordering. A graph which contains cycle cannot have a valid ordering. The only type of graph which is a valid topological ordering is a directed acyclic grapg (DAG). These are graph with directed edges and no cycle.**
 
 - Topological sort algorithm - 
-  1) Kahn's BFS based algorithm - 
+  1) Kahn's BFS based algorithm [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/TopologcalSortKahnBFSAlgo.java) 
      * Store Indegrees of every vertes. Loop through the graph and fill indegree array. 
      * Create a queue.
      * Add all 0 indegree nodes vertices to queue.
