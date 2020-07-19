@@ -17,7 +17,7 @@ public class CycleInDirectedGraphUsingKahnAlgo {
 	public void createGraph() {
 		
 		graph = new ArrayList<>();
-		vertices = 6;
+		vertices = 7;
 		
 		for(int i=0; i<=vertices; i++) {
 			graph.add(new ArrayList<Integer>());
@@ -33,20 +33,21 @@ public class CycleInDirectedGraphUsingKahnAlgo {
 		
 	
 		//  0 - 1 - 2 - 3 - 4- 5 - 6
-		/*addDirectedEdge(0, 1);
+	/*	addDirectedEdge(0, 1);
 		addDirectedEdge(1, 2);
 		addDirectedEdge(2, 3);
 		addDirectedEdge(3, 4);
 		addDirectedEdge(4, 5);
-		addDirectedEdge(5, 6);*/
-
+		addDirectedEdge(5, 6);
+*/
 		
 	}
 	
 	public boolean isCycleDetected() {
-		int[] inDegrees = new int[vertices+1];
+		int[] inDegrees = new int[vertices];
+		int count = 0;
 		
-		for(int i=0; i<=vertices; i++) {
+		for(int i=0; i<vertices; i++) {
 			for(Integer in : graph.get(i)) {
 				inDegrees[in]++;
 			}
@@ -61,7 +62,7 @@ public class CycleInDirectedGraphUsingKahnAlgo {
 		
 		while(!queue.isEmpty()) {
 			int ver = queue.poll();
-			
+			count++;
 			for(Integer in : graph.get(ver)) {
 				inDegrees[in]--;
 				if(inDegrees[in] == 0)
@@ -69,11 +70,9 @@ public class CycleInDirectedGraphUsingKahnAlgo {
 			}
 		}
 		
-		for(int x=0; x<inDegrees.length; x++) {
-			if(inDegrees[x] != 0)
-				return true;
-		}
+		if(count == vertices)
+			return false;
 		
-		return false;
+		return true;
 	}
 }
