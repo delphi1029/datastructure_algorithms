@@ -12,7 +12,7 @@
  7) Ford fulkerson algorithm (The Ford–Fulkerson method or Ford–Fulkerson algorithm is a greedy algorithm that computes the maximum flow in a flow network).
  8) Broadcasting
 
-#### Applications of DFS -
+#### Applications of DFS [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/dfs/DFS.java) -
 
 1) Cycle detection
 2) Topological sort.
@@ -35,7 +35,7 @@ WE can also use BFS to detec cycle in a graph.
 
 #### Finding shortest path in a grid using [BFS](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/ShortestPathInBinaryMatrix.java)
 
-#### Detect cycle in directed graph
+#### Detect cycle in directed graph [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graphtheory/src/main/java/com/deepak/graph/dfs/CycleInUndirectedGraph.java)
 
 DFS can be used to detect cycle in the directed graph. 
  
