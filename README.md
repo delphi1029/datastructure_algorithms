@@ -1,7 +1,7 @@
 # Algorithms
  ## Graph Theory - 
  
- #### Applications of BFS - 
+ #### Applications of BFS [link] (https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/BFS.java)- 
  
  1) Shortest path in un weighted graph.
  2) Crawler in search engine.
@@ -27,7 +27,13 @@ We can use simple BFS to find shorted distance in un-weighted and undirected gra
 
 #### Detect cycle in undirected graph - 
 
-We can use DFS to detect cycle in acyclic graph.For every visited vertex v, when we have found any adjacent vertex u, such that u is already visited, and u is not the parent of vertex v. Then cycle is detected
+We can use DFS to detect cycle in graph.For every visited vertex v, when we have found any adjacent vertex u, such that u is already visited, and u is not the parent of vertex v. Then cycle is detected.
+
+WE can also use BFS to detec cycle in a graph.
+
+#### Detect cycle in directed graph
+
+DFS can be used to detect cycle in the directed graph. 
  
 
 #### Topological Sort - 
