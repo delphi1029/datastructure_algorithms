@@ -56,3 +56,10 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
 - Topological sort algorithm - 
   1) Kahn's BFS based algorithm - 
      * Store Indegrees of every vertes. Loop through the graph and fill indegree array. 
+     * Create a queue.
+     * Add all 0 indegree nodes vertices to queue.
+     * Run a look while queue is not empty
+     * Remove a vertex from the queue (Dequeue operation) and then.
+         * Increment count of visited nodes by 1.
+         * Decrease in-degree by 1 for all its neighboring nodes.
+         * If in-degree of a neighboring nodes is reduced to zero, then add it to the queue.
