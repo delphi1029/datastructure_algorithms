@@ -24,3 +24,23 @@
 #### Shortest Path (Unweighted Graph) - BFS
 
 We can use simple BFS to find shorted distance in un-weighted and undirected graph. The time complexity of the solution is O(V + E) and space complexity is O(V).
+
+#### Detect cycle in undirected graph - 
+
+We can use DFS to detect cycle in acyclic graph.For every visited vertex v, when we have found any adjacent vertex u, such that u is already visited, and u is not the parent of vertex v. Then cycle is detected
+ 
+
+#### Topological Sort - 
+
+Many real world situations canbe modelled as graph with directed edges where some events must occur before others
+
+- School class prerequisites
+- Program dependencies
+- Event scheduling
+- Assemble instructions.
+
+Topological ordering is an odering of the nodes in a directed graph where from each directed edge from node A to node B, node A appears beofre node B in the ordering.
+
+Topological sort algorithm can find a topological ordering in O(V+E) time.
+
+**Not every graph can have a topological ordering. A graph which contains cycle cannot have a valid ordering. The only type of graph which is a valid topological ordering is a directed acyclic grapg (DAG). These are graph with directed edges and no cycle.**
