@@ -64,3 +64,16 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
          * Decrease in-degree by 1 for all its neighboring nodes.
          * If in-degree of a neighboring nodes is reduced to zero, then add it to the queue.
      * Time complexity is O(V+E) and space complexity is O(V).
+     
+ 2) DFS algorith for topolofical sort - 
+     * Create an empty stack.
+     * for every vertex u, do following
+             * if (u is not visited)
+                   DFS(u, stack)
+      * While stack is not empty, pop an element from the stack and print it.
+      * DFS(u, stack)
+           - mark u as visited
+           - For every adjacent v of u
+                     if(v is not visited)
+                        DFS(v,stack)
+           - push u to stack
