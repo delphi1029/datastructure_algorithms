@@ -1,7 +1,7 @@
 # Algorithms
  ## Graph Theory - 
  
- #### Applications of BFS - 
+ * #### Applications of BFS [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/BFS.java) - 
  
  1) Shortest path in un weighted graph.
  2) Crawler in search engine.
@@ -12,7 +12,7 @@
  7) Ford fulkerson algorithm (The Ford–Fulkerson method or Ford–Fulkerson algorithm is a greedy algorithm that computes the maximum flow in a flow network).
  8) Broadcasting
 
-#### Applications of DFS -
+* #### Applications of DFS [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/dfs/DFS.java) -
 
 1) Cycle detection
 2) Topological sort.
@@ -21,16 +21,24 @@
 5) Path finding.
 
 
-#### Shortest Path (Unweighted Graph) - BFS
+* #### Shortest Path (Unweighted Graph) - [BFS](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/ShortestPathUnWeightedGraphBFS.java)
 
 We can use simple BFS to find shorted distance in un-weighted and undirected graph. The time complexity of the solution is O(V + E) and space complexity is O(V).
 
-#### Detect cycle in undirected graph - 
+We can also trace the shortest path if required. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/TraceShortstPathUsingBFS.java)
 
-We can use DFS to detect cycle in acyclic graph.For every visited vertex v, when we have found any adjacent vertex u, such that u is already visited, and u is not the parent of vertex v. Then cycle is detected
- 
+* #### Detect cycle in undirected graph [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/dfs/CycleInUndirectedGraph.java) 
 
-#### Topological Sort - 
+We can use DFS to detect cycle in graph.For every visited vertex v, when we have found any adjacent vertex u, such that u is already visited, and u is not the parent of vertex v. Then cycle is detected.
+
+WE can also use BFS to detect cycle in a graph.
+
+* #### Detect cycle in directed graph
+DFS can be used to detect cycle in the directed graph. 
+
+* #### Finding shortest path in a grid using [BFS](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/ShortestPathInBinaryMatrix.java)
+
+* #### Topological Sort - 
 
 Many real world situations canbe modelled as graph with directed edges where some events must occur before others
 
