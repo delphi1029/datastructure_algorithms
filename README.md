@@ -33,7 +33,7 @@ We can use DFS to detect cycle in graph.For every visited vertex v, when we have
 
 WE can also use BFS to detect cycle in a graph.
 
-* #### Detect cycle in directed graph
+* #### Detect cycle in directed graph [DFS](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/dfs/CycleInDirectedGraphDFS.java)
 DFS can be used to detect cycle in the directed graph. 
 
 * #### Finding shortest path in a grid using [BFS](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/ShortestPathInBinaryMatrix.java)
