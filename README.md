@@ -77,3 +77,8 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
                      if(v is not visited)
                         DFS(v,stack)
            - push u to stack
+           
+      
+  * #### Single Source Shortest Path (SSSP) problem -
+  SSSP problem is about finding a path between a given vertex (called source) to all other vertices in graph such that the total distance between then (source and destination) is minimum. 
+      
