@@ -82,7 +82,9 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
  * #### Single Source Shortest Path (SSSP) problem -
       * SSSP problem is about finding a path between a given vertex (called source) to all other vertices in a graph such that the total distance between them (source and destination) is minimum. 
       * Algorithms for SSSP are -
-        * BFS
+        * BFS [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/ShortestPathUnWeightedGraphBFS.java)
+          * Can be used to find SSSP in case of unWeighted-undirected and unWeighted-directed graph.
+          * Cannot be used in case of weighted graph.
         * Dijkstra's
         * Bellman Ford
       
