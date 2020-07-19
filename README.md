@@ -24,3 +24,16 @@
 #### Shortest Path (Unweighted Graph) - BFS
 
 We can use simple BFS to find shorted distance in un-weighted and undirected graph. The time complexity of the solution is O(V + E) and space complexity is O(V).
+
+#### Topological Sort - 
+
+Many real world situations canbe modelled as graph with directed edges where some events must occur before others
+
+- School class prerequisites
+- Program dependencies
+- Event scheduling
+- Assemble instructions.
+
+Topological ordering is an odering of the nodes in a directed graph where from each directed edge from node A to node B, node A appears beofre node B in the ordering.
+
+Topoligcal sort algorithm can find a topological ordering in O(V+E) time.
