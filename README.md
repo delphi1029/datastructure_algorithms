@@ -27,15 +27,16 @@ We can use simple BFS to find shorted distance in un-weighted and undirected gra
 
 We can also trace the shortest path if required. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/TraceShortstPathUsingBFS.java)
 
-#### Detect cycle in undirected graph - 
+#### Detect cycle in undirected graph [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/dfs/CycleInUndirectedGraph.java) 
 
 We can use DFS to detect cycle in graph.For every visited vertex v, when we have found any adjacent vertex u, such that u is already visited, and u is not the parent of vertex v. Then cycle is detected.
 
-WE can also use BFS to detec cycle in a graph.
+WE can also use BFS to detect cycle in a graph.
+
+#### Detect cycle in directed graph
+
 
 #### Finding shortest path in a grid using [BFS](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/ShortestPathInBinaryMatrix.java)
-
-#### Detect cycle in directed graph [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/dfs/CycleInUndirectedGraph.java)
 
 DFS can be used to detect cycle in the directed graph. 
  
