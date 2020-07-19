@@ -25,6 +25,11 @@
 
 We can use simple BFS to find shorted distance in un-weighted and undirected graph. The time complexity of the solution is O(V + E) and space complexity is O(V).
 
+#### Detect cycle in undirected graph - 
+
+We can use DFS to detect cycle in acyclic graph.For every visited vertex v, when we have found any adjacent vertex u, such that u is already visited, and u is not the parent of vertex v. Then cycle is detected
+ 
+
 #### Topological Sort - 
 
 Many real world situations canbe modelled as graph with directed edges where some events must occur before others
