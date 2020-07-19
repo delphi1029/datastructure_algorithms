@@ -1,7 +1,7 @@
 # Algorithms
  ## Graph Theory - 
  
- #### Applications of BFS [link] (https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/BFS.java)- 
+ #### Applications of BFS [link] (https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/BFS.java) - 
  
  1) Shortest path in un weighted graph.
  2) Crawler in search engine.
