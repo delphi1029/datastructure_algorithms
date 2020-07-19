@@ -77,8 +77,12 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
                      if(v is not visited)
                         DFS(v,stack)
            - push u to stack
-           
-      
+ 
+ * #### Shortest path in DAG (Directed acyclic graph)
+   * For a general weighted graph, we can calculate single source shortest distances in O(VE) time using Bellman–Ford Algorithm. 
+   * For a graph with no negative weights, we can do  better and calculate single source shortest distances in O(E + VLogV) time using Dijkstra’s algorithm. 
+   * **Can we do even better for Directed Acyclic Graph (DAG)? We can calculate single source shortest distances in O(V+E) time for DAGs. The idea is to use Topological Sorting.** 
+   
  * #### Single Source Shortest Path (SSSP) problem -
       * SSSP problem is about finding a path between a given vertex (called source) to all other vertices in a graph such that the total distance between them (source and destination) is minimum. 
       * Algorithms for SSSP are -
