@@ -23,7 +23,7 @@
 
 * #### Shortest Path (Unweighted Graph) - [BFS](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/ShortestPathUnWeightedGraphBFS.java)
 
-We can use simple BFS to find shorted distance in un-weighted and undirected graph. The time complexity of the solution is O(V + E) and space complexity is O(V).
+We can use simple BFS to find shortest distance in un-weighted and undirected graph. The time complexity of the solution is O(V + E) and space complexity is O(V).
 
 We can also trace the shortest path if required. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/TraceShortstPathUsingBFS.java)
 
