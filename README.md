@@ -65,7 +65,7 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
          * If in-degree of a neighboring nodes is reduced to zero, then add it to the queue.
      * Time complexity is O(V+E) and space complexity is O(V).
      
-  2) DFS algorith for topological sort. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/dfs/TopologicalSortDFS.java)
+  2) DFS algorithm for topological sort. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/dfs/TopologicalSortDFS.java)
      * Create an empty stack.
      * for every vertex u, do following
              * if (u is not visited)
