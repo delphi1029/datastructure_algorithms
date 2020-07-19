@@ -33,7 +33,7 @@ We can use DFS to detect cycle in graph.For every visited vertex v, when we have
 
 WE can also use BFS to detect cycle in a graph.
 
-* #### Detect cycle in directed graph
+* #### Detect cycle in directed graph [DFS](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/dfs/CycleInDirectedGraphDFS.java)
 DFS can be used to detect cycle in the directed graph. 
 
 * #### Finding shortest path in a grid using [BFS](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/ShortestPathInBinaryMatrix.java)
@@ -52,3 +52,14 @@ Topological ordering is an odering of the nodes in a directed graph where from e
 Topological sort algorithm can find a topological ordering in O(V+E) time.
 
 **Not every graph can have a topological ordering. A graph which contains cycle cannot have a valid ordering. The only type of graph which is a valid topological ordering is a directed acyclic grapg (DAG). These are graph with directed edges and no cycle.**
+
+- Topological sort algorithm - 
+  1) Kahn's BFS based algorithm - 
+     * Store Indegrees of every vertes. Loop through the graph and fill indegree array. 
+     * Create a queue.
+     * Add all 0 indegree nodes vertices to queue.
+     * Run a look while queue is not empty
+     * Remove a vertex from the queue (Dequeue operation) and then.
+         * Increment count of visited nodes by 1.
+         * Decrease in-degree by 1 for all its neighboring nodes.
+         * If in-degree of a neighboring nodes is reduced to zero, then add it to the queue.
