@@ -52,3 +52,7 @@ Topological ordering is an odering of the nodes in a directed graph where from e
 Topological sort algorithm can find a topological ordering in O(V+E) time.
 
 **Not every graph can have a topological ordering. A graph which contains cycle cannot have a valid ordering. The only type of graph which is a valid topological ordering is a directed acyclic grapg (DAG). These are graph with directed edges and no cycle.**
+
+- Topological sort algorithm - 
+  1) Kahn's BFS bases algorithm
+  2) 
