@@ -81,7 +81,7 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
  * #### Shortest path in DAG (Directed acyclic graph)
    * For a general weighted graph, we can calculate single source shortest distances in O(VE) time using Bellman–Ford Algorithm. 
    * For a graph with no negative weights, we can do  better and calculate single source shortest distances in O(E + VLogV) time using Dijkstra’s algorithm. 
-   * **Can we do even better for Directed Acyclic Graph (DAG)? We can calculate single source shortest distances in O(V+E) time for DAGs. The idea is to use Topological Sorting.** 
+   * **Can we do even better for Directed Acyclic Graph (DAG)? We can calculate single source shortest distances in O(V+E) time for DAGs. The idea is to use Topological Sorting.** [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/sssp/SSSPUsingTopologicalSortDAG.java)
    
  * #### Single Source Shortest Path (SSSP) problem -
       * SSSP problem is about finding a path between a given vertex (called source) to all other vertices in a graph such that the total distance between them (source and destination) is minimum. 
@@ -92,3 +92,22 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
         * Dijkstra's
         * Bellman Ford
       
+#### Spanning Tree and Minimum Spanning Tree
+* A spanning tree T of an undirected graph G is a subgraph that is a tree which includes all of the vertices of G, with a minimum possible number of edges (min edges = V-1).
+* Please note A tree is a connected undirected graph with no cycles.
+* Given an undirected graph with weighted edges, a Minimum Spanning Tree (MST) is a subset of the edges in the graph which connects all vertices together (without creating any cycle) while minimizing the total edge cost.
+* **A minimum spanning tree (MST)** or minimum weight spanning tree is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight. That is, it is a spanning tree whose sum of edge weights is as small as possible. 
+* If there are n vertices in the graph, then each spanning tree has n − 1 edges.
+* There may be several minimum spanning trees of the same weight; in particular, if all the edge weights of a given graph are the same, then every spanning tree of that graph is minimum.
+* Minimum spanning trees have direct applications in the design of networks, including computer networks, telecommunications networks, transportation networks, water supply networks, and electrical grids.
+* Removing one edge from spanning tree will make it disconnected.
+* Adding one edge in spanning tree will make a loop.
+* If each edge has distinct weight then there will be only one Minimum spanning tree.
+* A complete undirected graph can have n ^ n-2 no of spanning trees (n - number of vertices).
+* From a complete graphby removing max (e-n+1) edges we can create a spanning tree. (e - edges, n- vertices)
+
+##### Algorithms to find cost of minimum spanning tree - 
+* Prim's algorithm.
+* Kruskal algorithm
+
+* Both prim's and Krushal algorithms cannot be used for Directed graphs.
