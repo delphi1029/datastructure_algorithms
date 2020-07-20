@@ -105,3 +105,7 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
 * If each edge has distinct weight then there will be only one Minimum spanning tree.
 * A complete undirected graph can have n ^ n-2 no of spanning trees (n - number of vertices).
 * From a complete graphby removing max (e-n+1) edges we can create a spanning tree. (e - edges, n- vertices)
+
+##### Algorithms to find cost of minimum spanning tree - 
+* Prim's algorithm.
+* Krushal algorithm
