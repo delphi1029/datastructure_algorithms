@@ -99,3 +99,8 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
 * If there are n vertices in the graph, then each spanning tree has n − 1 edges.
 * There may be several minimum spanning trees of the same weight; in particular, if all the edge weights of a given graph are the same, then every spanning tree of that graph is minimum.
 * Minimum spanning trees have direct applications in the design of networks, including computer networks, telecommunications networks, transportation networks, water supply networks, and electrical grids.
+* Removing one edge from spanning tree will make it disconnected.
+* Adding one edge in spanning tree will make a loop.
+* If each edge has distinct weight then there will be only one Minimum spanning tree.
+* A complete undirected graph can have n ^ n-2 no of spanning trees (n - number of vertices).
+* From a complete graphby removing max (e-n+1) edges we can create a spanning tree. (e - edges, n- vertices)
