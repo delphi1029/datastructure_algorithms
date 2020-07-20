@@ -107,7 +107,7 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
 * From a complete graphby removing max (e-n+1) edges we can create a spanning tree. (e - edges, n- vertices)
 
 ##### Algorithms to find cost of minimum spanning tree - 
-* Prim's algorithm.
-* Kruskal algorithm
+* Prim's algorithm. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/mst/PrimsAlgoForMST.java)
+* Kruskal algorithm - **Pending**
 
 * Both prim's and Krushal algorithms cannot be used for Directed graphs.
