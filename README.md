@@ -108,6 +108,6 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
 
 ##### Algorithms to find cost of minimum spanning tree - 
 * Prim's algorithm.
-* Krushal algorithm
+* Kruskal algorithm
 
 * Both prim's and Krushal algorithms cannot be used for Directed graphs.
