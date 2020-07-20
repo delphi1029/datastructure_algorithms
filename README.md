@@ -92,3 +92,7 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
         * Dijkstra's
         * Bellman Ford
       
+#### Spanning Tree and Minimum Spanning Tree
+* A spanning tree T of an undirected graph G is a subgraph that is a tree which includes all of the vertices of G, with a minimum possible number of edges (min edges = V-1).
+* Please notr A tree is a connected undirected graph with no cycles.
+* **A minimum spanning tree (MST)** or minimum weight spanning tree is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight. That is, it is a spanning tree whose sum of edge weights is as small as possible. 
