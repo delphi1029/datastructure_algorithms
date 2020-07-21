@@ -16,7 +16,7 @@ public class WeightedNode implements Comparable<WeightedNode>{
 	
 	public WeightedNode(int name) {
 		this.name = name;
-		this.distance = Integer.MAX_VALUE;
+		this.distance = Integer.MAX_VALUE-100;
 		neighbours = new ArrayList<>();
 		this.weightMap = new HashMap<>();
 	}
