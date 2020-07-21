@@ -89,11 +89,11 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
         * BFS [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/ShortestPathUnWeightedGraphBFS.java)
           * Can be used to find SSSP in case of unWeighted-undirected and unWeighted-directed graph.
           * Cannot be used in case of weighted graph.
-        * Dijkstra's -
+        * Dijkstra's [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/sssp/DijkstraAlgorithm.java)
           * Time complexity is O(E * log(V)).
           * Dijkstra alorithm will only work for graphs having non negative edge weights, **it will not work for negative edge weights.**
           * This is a greedy algorithm.
-        * Bellman Ford
+        * Bellman Ford [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/sssp/BellmanFordAlgorithm.java)
       
 #### Spanning Tree and Minimum Spanning Tree
 * A spanning tree T of an undirected graph G is a subgraph that is a tree which includes all of the vertices of G, with a minimum possible number of edges (min edges = V-1).
