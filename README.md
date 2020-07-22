@@ -89,11 +89,21 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
         * BFS [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/ShortestPathUnWeightedGraphBFS.java)
           * Can be used to find SSSP in case of unWeighted-undirected and unWeighted-directed graph.
           * Cannot be used in case of weighted graph.
+          * Time complexity O(V+E).
         * Dijkstra's [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/sssp/DijkstraAlgorithm.java)
           * Time complexity is O(E * log(V)).
           * Dijkstra alorithm will only work for graphs having non negative edge weights, **it will not work for negative edge weights.**
           * This is a greedy algorithm.
         * Bellman Ford [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/sssp/BellmanFordAlgorithm.java)
+          * when you have negative edge weight then this algo can detect negative cycles in a graph.
+          * The only difference between the two is that Bellman-Ford is also capable of handling negative weights whereas Dijkstra Algorithm can only handle positives.
+          * Time complexity is O(V * E)
+   
+ * #### All source shortest Path (ASSP) problem - 
+      * This problem is ablout finding a path between every vertex to all other vertices in a graph such that, the total distance between then (source and destination) in minimum.
+      * Algorithm for ASSP - 
+          * Floyd Warshall
+            * This algorithm does not work for negative cycles.
       
 #### Spanning Tree and Minimum Spanning Tree
 * A spanning tree T of an undirected graph G is a subgraph that is a tree which includes all of the vertices of G, with a minimum possible number of edges (min edges = V-1).
