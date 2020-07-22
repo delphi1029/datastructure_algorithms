@@ -126,3 +126,9 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
 * Kruskal algorithm - **Pending**
 
 * Both prim's and Krushal algorithms cannot be used for Directed graphs.
+
+#### Connected Components - 
+     * A component is called connected if every vertex is reachable from every other vertex.
+     * In case of **undirected graph** we can find connected components simply by using either 
+         * BFS
+         * DFS
