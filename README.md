@@ -133,7 +133,7 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
       * BFS
       * DFS
    *  In case of **directed graph** we can find connected components by using following algorithms - 
-      * Kosaraju Algorithm
+      * Kosaraju Algorithm [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/connectedcomponents/KosarajuAlgorithm.java)
          * Steps - 
            1) Create an empty stack ‘S’ and do DFS traversal of a graph. In DFS traversal, after calling recursive DFS for adjacent vertices of a vertex, push the vertex to stack. In the above graph, if we start DFS from vertex 0, we get vertices in stack as 1, 2, 4, 3, 0.
            2) Reverse directions of all arcs to obtain the transpose graph.
