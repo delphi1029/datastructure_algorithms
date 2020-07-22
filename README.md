@@ -98,6 +98,9 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
           * when you have negative edge weight then this algo can detect negative cycles in a graph.
           * The only difference between the two is that Bellman-Ford is also capable of handling negative weights whereas Dijkstra Algorithm can only handle positives.
           * Time complexity is O(V * E)
+   
+ * #### All source shortest Path (ASSP) problem - 
+      * This problem is ablout finding a path between every vertex to all other vertices in a graph such that, the total distance between then (source and destination) in minimum.
       
 #### Spanning Tree and Minimum Spanning Tree
 * A spanning tree T of an undirected graph G is a subgraph that is a tree which includes all of the vertices of G, with a minimum possible number of edges (min edges = V-1).
