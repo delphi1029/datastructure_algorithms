@@ -149,4 +149,9 @@ Topological sort algorithm can find a topological ordering in O(V+E) time.
            * a) Remove v from graph
            * b) See if the graph remains connected (We can either use BFS or DFS)
            * c) Add v back to the graph
-    * Time complexity of above method is O(V*(V+E)) for a graph represented using adjacency list.
+       * Time complexity of above method is O(V*(V+E)) for a graph represented using adjacency list.
+  
+   *  A O(V+E) algorithm to find all Articulation Points (APs)
+     *  The idea is to use DFS (Depth First Search). In DFS, we follow vertices in tree form called DFS tree. In DFS tree, a vertex u is parent of another vertex v, if v is discovered by u (obviously v is an adjacent of u in graph). In DFS tree, a vertex u is articulation point if one of the following two conditions is true.
+     *  1) u is root of DFS tree and it has at least two children.
+     *  2) u is not root of DFS tree and it has a child v such that no vertex in subtree rooted with v has a back edge to one of the ancestors (in DFS tree) of u.
