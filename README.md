@@ -26,14 +26,14 @@ Contents -
   * for(inti=0; i<n; i=+k) - O(n)
   
   * for(int i=0; i<n; i++) - O(m*n)
-       for(int j=0; j<m; j++)
+       * for(int j=0; j<m; j++)
        
   *  for(int i=0; i<n; i++) - O(n^2)
-       for(int j=0; j<i; j++)
+       * for(int j=0; j<i; j++)
    
   *  for(int i=0; i<n; i++) - **O(n)**
-        i*=2
-        for(intj=0; j<i; j++)
+        * i*=2
+        * for(intj=0; j<i; j++)
         
   * for(inti =0; i<n; i = i*2) - O(log n)
   
