@@ -1,9 +1,26 @@
 # Algorithms
 
 Contents - 
+ * [Big O](#big-o) 
  * [Graph Theory](#graph-theory)
 
 
+ ## Big O
+ 
+ * O(1) < O(loglog n) < O(log n) < O(sqt(n)) < O(n) < O(n* log n) < O(n^2) < O(n^3) < O(2^n) < O(n!)
+ 
+ Handy formulas - 
+  * c + c + c + c + c +.........+c = cn
+  
+  * 1 + 2 + 3 + 4 + 5 + 6 +........+n = n(n+1)/2;
+  
+  * 1^2 + 2^2 + 3^2 + 4^2 +.......+n^2 = n(n+1)(2n+1)/6;
+  
+  * r^0 + r^1 + r^2 + r^3 +.......+r^n = ((r^n+1) - 1)/(r-1)
+  * 2^0 + 2^1 + 2^2+ ......+2^n = 2^(n+1) -1
+  
+  
+ 
 
 
  ## Graph Theory
