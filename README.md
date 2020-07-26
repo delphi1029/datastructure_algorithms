@@ -19,8 +19,31 @@ Contents -
   * r^0 + r^1 + r^2 + r^3 +.......+r^n = ((r^n+1) - 1)/(r-1)
   * 2^0 + 2^1 + 2^2+ ......+2^n = 2^(n+1) -1
   
+  Common complexity Scenarios - 
   
- 
+  * for(int i=0; i<n; i++) -  O(n)
+  
+  * for(inti=0; i<n; i=+k) - O(n)
+  
+  * for(int i=0; i<n; i++) - O(m*n)
+       for(int j=0; j<m; j++)
+       
+  *  for(int i=0; i<n; i++) - O(n^2)
+       for(int j=0; j<i; j++)
+   
+  *  for(int i=0; i<n; i++) - **O(n)**
+        i*=2
+        for(intj=0; j<i; j++)
+        
+  * for(inti =0; i<n; i = i*2) - O(log n)
+  
+  * for(int i=0; i<n; i = i/2) - O(log n)
+  
+  * for(int i=0; i*i<n; i++) - O(sqrt(n))
+  
+  
+  
+ Note - String concatination operation is O(n^2) where n is length of string. Instead of string use string builder for string concatination operation.
 
 
  ## Graph Theory
