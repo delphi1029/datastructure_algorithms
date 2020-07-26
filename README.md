@@ -1,5 +1,12 @@
 # Algorithms
- ## Graph Theory - 
+
+Contents - 
+ * [Graph Theory](#graph-theory)
+
+
+
+
+ ## Graph Theory
  
  * #### Applications of BFS [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/BFS.java) - 
  
