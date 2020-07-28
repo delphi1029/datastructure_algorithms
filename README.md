@@ -2,8 +2,8 @@
 
 Contents - 
  * [Big O](#big-o) 
- * [Graph Theory](#graph-theory)
  * [Arrays](#arrays)
+ * [Graph Theory](#graph-theory)
 
 
  ## Big O
@@ -49,7 +49,7 @@ Contents -
 
  ## Arrays
  
- * Remove duplicates from sorted array. [link]
+ * Remove duplicates from sorted array. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/RemoveDuplicate.java)
  
  * 
  
