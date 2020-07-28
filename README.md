@@ -61,6 +61,8 @@ Contents -
  
  *  Remove Element. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/RemoveElement.java)
  
+ * Two Sum [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/TwoSum.java)
+ 
  
  
  
