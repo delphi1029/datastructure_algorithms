@@ -45,6 +45,7 @@ public class ArticulationPoint {
 		int len = visited.length;
 		int disc[] = new int[len]; 
         int low[] = new int[len]; 
+        Arrays.fill(low, Integer.MAX_VALUE);
         int parent[] = new int[len];
         Arrays.fill(parent,  -1);
         boolean ap[] = new boolean[len]; // To store articulation points 
