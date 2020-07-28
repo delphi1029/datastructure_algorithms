@@ -57,6 +57,8 @@ Contents -
  
  * Plus One [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/PlusOne.java)
  
+ *  Remove Element. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/RemoveElement.java)
+ 
  
  
  
