@@ -53,6 +53,8 @@ Contents -
  
  * Rotate Array [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/RotateTheArray.java)
  
+ * Buy Sell Stock (only one trasaction allowed). [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/BuySellStock_1.java)
+ 
  
  
  
