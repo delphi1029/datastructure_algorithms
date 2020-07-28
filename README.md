@@ -51,7 +51,7 @@ Contents -
  
  * Remove duplicates from sorted array. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/RemoveDuplicate.java)
  
- * 
+ * Rotate Array [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/RotateTheArray.java)
  
  
  
