@@ -3,7 +3,7 @@
 Contents - 
  * [Big O](#big-o) 
  * [Graph Theory](#graph-theory)
- * [Arrays[(#arrays)
+ * [Arrays](#arrays)
 
 
  ## Big O
