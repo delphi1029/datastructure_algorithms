@@ -63,6 +63,8 @@ Contents -
  
  * Two Sum [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/TwoSum.java)
  
+ * Container With Most Water. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/ContainerWithMostWater.java)
+ 
  
  
  
