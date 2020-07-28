@@ -55,6 +55,8 @@ Contents -
  
  * Buy Sell Stock (only one trasaction allowed). [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/BuySellStock_1.java)
  
+ * Plus One [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/PlusOne.java)
+ 
  
  
  
