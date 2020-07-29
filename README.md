@@ -67,6 +67,8 @@ Contents -
  
  * **Product of Array Except Self** [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/ProductOfArrayExceptSelf.java)
  
+ * Maximum Difference. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/MaximumDifference.java)
+ 
  
  
  
