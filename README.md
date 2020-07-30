@@ -71,6 +71,8 @@ Contents -
  
  * **Trapping Rain Water** [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/TrappingRainWater.java)
  
+ * Maximum Subarray [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/MaximumSumSubarray.java)
+ 
  
  
  
