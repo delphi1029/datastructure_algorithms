@@ -71,9 +71,11 @@ Contents -
  
  * **Trapping Rain Water** [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/TrappingRainWater.java)
  
- * Maximum Subarray [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/MaximumSumSubarray.java)
+ * Maximum Subarray (kadane's algorithm) [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/MaximumSumSubarray.java)
  
- * **Maximum Sum Circular Subarray** [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/MaximumSumCircularSubarray.java)
+ * **Maximum Sum Circular Subarray (kadane's algorithm) ** [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/MaximumSumCircularSubarray.java)
+ 
+ * Majority Element (Moore's voting algorithm) [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/MajorityElement.java)
  
  
  
