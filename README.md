@@ -73,7 +73,7 @@ Contents -
  
  * Maximum Subarray (kadane's algorithm) [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/MaximumSumSubarray.java)
  
- * **Maximum Sum Circular Subarray (kadane's algorithm) ** [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/MaximumSumCircularSubarray.java)
+ * **Maximum Sum Circular Subarray (kadane's algorithm)** [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/MaximumSumCircularSubarray.java)
  
  * Majority Element (Moore's voting algorithm) [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/MajorityElement.java)
  
