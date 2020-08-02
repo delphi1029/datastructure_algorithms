@@ -79,7 +79,9 @@ Contents -
  
  ### **Sliding Window**
  
- * Longest Substring Without Repeating Characters- [link](https://github.com/delphi1029/datastructure_algorithms/tree/master/arrays/src/main/java/com/deepak/algo/arrays/slidingwindow)
+ * Longest Substring Without Repeating Characters- [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java)
+ 
+ * Longest Substring With At Most K Distinct Characters [linl](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/slidingwindow/LongestSubstringWithAtMostKDistinctChars.java)
  
  
  ## Graph Theory
