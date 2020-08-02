@@ -85,7 +85,7 @@ Contents -
  
  * Max Consecutive Ones [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/slidingwindow/MaxConsecutiveOnes.java)
  
- * 
+ * Grumpy Bookstore Owner [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/slidingwindow/GrumpyBookstoreOwner.java)
  
  
  ## Graph Theory
