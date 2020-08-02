@@ -3,6 +3,15 @@ package com.deepak.algo.arrays.slidingwindow;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * 
+ * Given a string, find the length of the longest substring without repeating characters.
+ * Example - 
+ * Input: "abcabcbb"
+ * Output: 3 
+ * Explanation: The answer is "abc", with the length of 3. 
+ *
+ */
 public class LongestSubstringWithoutRepeatingCharacters {
 	
 	
@@ -30,6 +39,9 @@ public class LongestSubstringWithoutRepeatingCharacters {
 	    
 	}
 	
+	
+	
+	//Alternative implementations
 	public int lengthOfLongestSubstring_1(String s) {
         
         Map<Character,Integer> map = new HashMap<>();
