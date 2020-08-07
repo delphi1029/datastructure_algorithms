@@ -87,6 +87,9 @@ Contents -
  
  * Grumpy Bookstore Owner [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/arrays/slidingwindow/GrumpyBookstoreOwner.java)
  
+ ### **Binary Searh**
+ 
+ * Search for a Range (search start and end index of element in sorted array) [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/binarysearch/SearchForARange.java)
  
  ## Graph Theory
  
