@@ -93,6 +93,8 @@ Contents -
  
  * Find Minimum in Rotated Sorted Array [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/binarysearch/MinimumInRotatedSortedArray.java)
  
+* **Search in Rotated Sorted Array** [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/binarysearch/MinimumInRotatedSortedArray.java)
+ 
  ## Graph Theory
  
  * #### Applications of BFS [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/BFS.java) - 
