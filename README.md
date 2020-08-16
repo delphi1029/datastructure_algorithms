@@ -3,7 +3,9 @@
 Contents - 
  * [Big O](#big-o) 
  * [Arrays](#arrays)
+ * [Matrix](#matrix)
  * [Graph Theory](#graph-theory)
+ 
 
 
  ## Big O
@@ -97,8 +99,12 @@ Contents -
 
 * Sqrt(x) [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/binarysearch/Sqrt.java)
 
+
+## Matrix
+
+  * Sprial Matrix [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/matrix/SpiralMatrix.java)
  
- ## Graph Theory
+## Graph Theory
  
  * #### Applications of BFS [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/BFS.java) - 
  
