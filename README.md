@@ -103,6 +103,8 @@ Contents -
 ## Matrix
 
   * Sprial Matrix [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/matrix/SpiralMatrix.java)
+  * Search 2D Matrix [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/matrix/Search2DMatrix.java)
+  * Searh 2D Matrix 2  [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/arrays/src/main/java/com/deepak/algo/matrix/Searh2DMatrix_2.java)
  
 ## Graph Theory
  
