@@ -139,8 +139,8 @@ We can also trace the shortest path if required. [link](https://github.com/delph
 We can use DFS to detect cycle in graph.For every visited vertex v, when we have found any adjacent vertex u, such that u is already visited, and u is not the parent of vertex v. Then cycle is detected.
 
 * #### Detect cycle in directed graph
-    * DFS can be used to detect cycle in the directed graph. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/dfs/CycleInDirectedGraphDFS.java)
-    * We can also use BFS to detect cycle in a graph. The algorithm used for this purpose is Kahn's topological sort algorithm. [link](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/CycleInDirectedGraphUsingKahnAlgo.java)
+    * DFS can be used to detect cycle in the directed graph. [DFS](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/dfs/CycleInDirectedGraphDFS.java)
+    * We can also use BFS to detect cycle in a graph. The algorithm used for this purpose is Kahn's topological sort algorithm. [BFS](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/CycleInDirectedGraphUsingKahnAlgo.java)
 
 * #### Finding shortest path in a grid using [BFS](https://github.com/delphi1029/datastructure_algorithms/blob/master/graph-theory/src/main/java/com/deepak/graph/bfs/ShortestPathInBinaryMatrix.java)
 
